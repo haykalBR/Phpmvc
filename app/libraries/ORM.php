@@ -12,15 +12,6 @@ class ORM {
      */
     public function getColumnByProperty($property)
     {
-/*        var_dump($property);die;
-        $property = lcfirst($property);
-        $columns = array_keys(array_filter($this->metadata["columns"], function($column) use ($property) {
-            return $column["property"] == $property;
-        }));
-        $column = array_shift($columns);
-
-        var_dump($column);die;
-        return $column;*/
     }
     private function where($filters = []){
 

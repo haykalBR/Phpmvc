@@ -5,7 +5,8 @@
     }
     
     public function index(){
-            var_dump($this->defaultmodel->findAll('posts'));die;
+        var_dump($_SERVER["REQUEST_URI"]);die;
+            var_dump($this->defaultmodel);die;
 
     }
 
